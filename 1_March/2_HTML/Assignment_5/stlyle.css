@@ -1,0 +1,84 @@
+body{
+    background:url("https://images.hdqwalls.com/wallpapers/triumph-bus-on-mars-ay.jpg");
+    background-size: 50%;
+}
+
+#nameMainContainer{
+    height: 100vh;
+    background-color: rgba(0,0,0,0,5);
+
+}
+
+#container{
+    
+    width: 350px;
+    
+    margin: auto;
+    margin-top: 5%;
+}
+
+#header{
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(83, 40, 40);
+    padding: 7px;
+    
+}
+
+ img{
+    border-radius: 50%;
+}
+#imgDiv{
+    text-align: center;
+    margin: .1px;
+    padding: 10px;
+}
+
+#section{
+    background-color: rgb(41, 57, 100);
+}
+#pragraph{
+    text-align: center;
+    padding: 7px;
+    color:aliceblue
+}
+table{
+    width: 100%;
+    color: aliceblue;
+}
+#tebleDiv{
+    padding: 2px;
+    margin: 20px;
+    margin-left: 2px;
+    margin-right: 5px;
+}
+
+#btnDiv{
+    text-align: center;
+    padding: 10px;
+    
+}
+#FollowersDiv{
+    margin-right: 2px;
+    padding-left: 20px;
+}
+#FollowingDiv{
+    margin-right: 2px;
+    padding-left: 50px;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    background-color:blueviolet;
+    border-radius: 5px;
+    width: 40%;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+
+#btnDiv{
+    text-align: center;
+    padding: 20px;
+}
