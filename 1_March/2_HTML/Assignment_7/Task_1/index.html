@@ -1,0 +1,49 @@
+<!-- Task 1 - Download Video -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 7 - Jasveer</title>
+    <style>
+      .preview {
+        text-align: center;
+      }
+      #video {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+      }
+      p {
+        text-align: center;
+      }
+      .image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:20%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 class="preview"><i> Preview Of The Video </i></h1>
+    <video id="video" poster="./Geekster.jpg" controls controlsList="nodownload">
+      <source src="/Geekster.mp4" type="video/mp4">
+      <source src="/Geekster.mp4" type="video/ogg">
+    </video>
+    <p>
+      <i
+        >Video Credit -
+        <a href="https://www.youtube.com/watch?v=0uB0b4rjuhM"> Geekster </a></i
+      >
+    </p>
+    <p><strong>To Downlod The Video Click On The Below Image</strong></p>
+    <a class="image" href="./Geekster.mp4" download="">
+        <img src="./Download.jpg" alt="Image Error" width="320" height="180">
+    </a>
+  </body>
+</html>
