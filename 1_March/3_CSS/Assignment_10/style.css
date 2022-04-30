@@ -1,0 +1,79 @@
+body{
+    background-image: url("./bg.jpg");
+    background-size: 1920px 1080px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(12 ,1fr);
+    padding:5% 10%;
+}
+.sec_a{
+    grid-column: 2 /span 1;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec_a > h2 >span{
+    border: 2px solid blue;
+
+}
+
+.sec_b{
+    grid-column: 7 /span 5;
+}
+.form{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding: 5%;
+    background-color: white;
+    border-radius: 10px;
+     
+}
+.item{
+    padding: 2%;
+}
+.item1{
+    grid-column: 1 /span 2;
+}
+.item1 >h2,p{
+    margin:1%;
+}
+.item2{
+    grid-column: 1 /span 2;
+}
+.item5{
+    grid-column: 1 /span 2;
+}
+.item8{
+    grid-column: 1 /span 2;
+    display: flex;
+    justify-content: center;
+}
+.item6{
+    grid-column: 1 /span 2;
+}
+.item7{
+    grid-column: 1 /span 2; 
+    display: flex;
+}
+.item > .checkbox{
+    margin-top: 6px;
+    width: 20px;
+}
+input{
+    margin-top: 2px;
+    width: 100%;
+    padding: 5px;
+}
+.btn{
+    padding: 10px 25px ;
+    background-color: rgb(46, 23, 181);
+    font-weight: 500;
+    border-radius: 10px;
+    font-size: 1.5vw;
+    color: white;
+    
+}
+ 

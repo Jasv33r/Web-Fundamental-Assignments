@@ -1,0 +1,28 @@
+.container {
+    display: grid;
+    background-color: red;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 130px 180px auto;
+  }
+  .item {
+    background-color: aqua;
+    border: 2px solid black;
+  }
+  .item1 {
+    grid-column: 1/ span 2;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .item2 {
+    height: 38vh;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .item3 {
+    padding: 10px;
+    margin: 10px;
+  }
